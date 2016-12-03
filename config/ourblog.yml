@@ -1,6 +1,6 @@
 default: &default
   dropbox:
-    access_token: 7TnJo82m6qUAAAAAAAACWVvQKe-B3Ga6u_QbU7nqTEJUaOrzbO6GUwYv0n3jC5iU
+    access_token: <%= ENV["DROPBOX_ACCESS_TOKEN"] %>
 
 development:
   <<: *default
