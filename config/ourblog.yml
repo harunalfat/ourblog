@@ -1,0 +1,9 @@
+default: &default
+  dropbox:
+    access_token: 7TnJo82m6qUAAAAAAAACWVvQKe-B3Ga6u_QbU7nqTEJUaOrzbO6GUwYv0n3jC5iU
+
+development:
+  <<: *default
+
+production:
+  <<: *default

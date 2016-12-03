@@ -20,4 +20,22 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  shared:
+    header:
+      title: Langkah Kecil
+      home: Beranda
+      about: Tentang
+      blog: Blog
+      contact: Kontak
+  root:
+    index:
+      welcome: Selamat Datang
+      title: Langkah Kecil
+      owner: Febby & Alfat
+  about:
+    index:
+      about: tentang
+      title: Langkah Kecil
+      us: Kami
+      husband: Sang Suami
+      wife: Sang Istri
