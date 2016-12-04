@@ -22,18 +22,19 @@
 en:
   layouts:
     application:
-      base_title: Langkah Kecil
+      base_title: Melangkah Bersama
     backoffice:
       base_title: Backoffice
   shared:
     header:
-      title: Langkah Kecil
+      title: Melangkah Bersama
       home: Beranda
       about: Tentang
       blog: Blog
       contact: Kontak
+      subtitle: Catatan dua insan yang sedang menjalani dunia mereka
     admin_header:
-      title: Langkah Kecil Admin
+      title: Melangkah Bersama Admin
       logout: Logout
     admin_sidebar:
       post: Postingan
@@ -41,17 +42,19 @@ en:
   root:
     index:
       welcome: Selamat Datang
-      title: Langkah Kecil
+      title: Melangkah Bersama
       owner: Febby & Alfat
       header: Beranda
   about:
     index:
       header: Tentang
-      about: tentang
-      title: Langkah Kecil
+      about: Tentang
+      title: Melangkah Bersama
       us: Kami
       husband: Sang Suami
       wife: Sang Istri
+      about_content: <p>Situs ini hanyalah kumpulan catatan-catatan kecil dari kehidupan yang kami jalani</p>
+                     <p>Sebagian catatan mungkin iseng belaka, namun sebagiannya lagi mungkin akan ada yang bermanfaat buat kawan-kawan</p>
   contact:
     index:
       contact: Kontak Kami
@@ -68,6 +71,7 @@ en:
     index:
       title: Blog
       empty: Belum ada post di Blog
+      read_more: Baca
 
   admin:
     posts:
@@ -80,11 +84,18 @@ en:
         updated_date: Tanggal Diperbarui
         new: Buat Baru
         edit: Edit
+        delete: Hapus
+        confirm_message: Anda ingin menghapus postingan ini?
       new:
         header: Buat Postingan Baru
         title: Judul
         content: Konten
         add: Tambahkan
+      edit:
+        header: Perbarui Postingan
+        title: Judul
+        content: Konten
+        update: Perbarui
     sessions:
       new:
         title: Admin Login
@@ -94,6 +105,8 @@ en:
     login_success: Sukses Login
     logout_success: Sukses Logout
     add_post_success: Sukses Menambahkan Postingan Baru
+    update_post_success: Sukses Memperbarui Postingan Baru
+    delete_post_success: Sukses Menghapus Postingan
 
   error:
     login_error: Salah Email atau Password

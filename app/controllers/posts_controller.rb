@@ -4,6 +4,7 @@ class PostsController < ApplicationController
   end
 
   def show
+    render locals: { post: Post.find(params[:id]) }
   end
 
   private
