@@ -8,7 +8,6 @@
   js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.8&appId=1576701875928447";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script id="tumblr-js" async src="https://assets.tumblr.com/share-button.js"></script>
 <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
@@ -58,15 +57,6 @@
               href="https://twitter.com/intent/tweet?text=<%= post.title %>"
               data-size="large">
             Tweet</a>
-          </div>
-
-          <br>
-          <div class="row">
-            <a class="tumblr-share-button" href="<%= post_url(post) %>"
-              data-posttype="text"
-              data-title="<%= post.title %>"
-              data-content="<%= parse_md post.content %>"
-              data-show-via="true"></a>
           </div>
 
           <h2>
