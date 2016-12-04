@@ -6,6 +6,6 @@ class AboutController < ApplicationController
   private
 
   def about_content
-    @about_content ||= StaticContents.find_by(type: 'about')
+    @about_content ||= StaticContent.find_by(type: 'about')
   end
 end

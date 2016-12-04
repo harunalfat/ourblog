@@ -20,6 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  layouts:
+    application:
+      base_title: Langkah Kecil
+    backoffice:
+      base_title: Backoffice
   shared:
     header:
       title: Langkah Kecil
@@ -27,15 +32,69 @@ en:
       about: Tentang
       blog: Blog
       contact: Kontak
+    admin_header:
+      title: Langkah Kecil Admin
+      logout: Logout
+    admin_sidebar:
+      post: Postingan
+      static_content: Konten Statis
   root:
     index:
       welcome: Selamat Datang
       title: Langkah Kecil
       owner: Febby & Alfat
+      header: Beranda
   about:
     index:
+      header: Tentang
       about: tentang
       title: Langkah Kecil
       us: Kami
       husband: Sang Suami
       wife: Sang Istri
+  contact:
+    index:
+      contact: Kontak Kami
+      title: Kami
+      fb: Facebook
+      ig: Instagram
+      twitter: Twitter
+      tumblr: Tumblr
+      linked: LinkedIn
+      febby: Febby's
+      alfat: Alfat's
+      header: Kontak
+  posts:
+    index:
+      title: Blog
+      empty: Belum ada post di Blog
+
+  admin:
+    posts:
+      index:
+        header: Post
+        post_list: List Postingan
+        created_date: Tanggal Dibuat
+        title: Judul
+        last_updater: Pengubah Terakhir
+        updated_date: Tanggal Diperbarui
+        new: Buat Baru
+        edit: Edit
+      new:
+        header: Buat Postingan Baru
+        title: Judul
+        content: Konten
+        add: Tambahkan
+    sessions:
+      new:
+        title: Admin Login
+        login: Masuk
+
+  success:
+    login_success: Sukses Login
+    logout_success: Sukses Logout
+    add_post_success: Sukses Menambahkan Postingan Baru
+
+  error:
+    login_error: Salah Email atau Password
+    not_logged: Anda Belum Login

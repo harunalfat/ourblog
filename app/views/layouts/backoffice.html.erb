@@ -14,6 +14,8 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -29,14 +31,17 @@
 
 </head>
 
-<body>
-
-    <%= render 'shared/header' %>
+<body class="backoffice">
 
     <div class="container">
 
+        <%= render 'shared/admin_header' %>
         <%= render 'shared/notification' %>
-        <%= yield %>
+        <div class="row">
+        		  <%= render 'shared/admin_sidebar' %>
+              <%= yield %>
+        </div>
+
 
     </div>
     <!-- /.container -->
@@ -56,6 +61,7 @@
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
+    var simplemde = new SimpleMDE();
     </script>
 
 </body>

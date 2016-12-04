@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module Ourblog
   class Application < Rails::Application
+    config.time_zone = 'Jakarta'
     config.active_record.raise_in_transactional_callbacks = true
     config.ourblog = config_for(:ourblog)
   end
